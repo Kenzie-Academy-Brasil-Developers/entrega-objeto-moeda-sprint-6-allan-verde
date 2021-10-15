@@ -25,10 +25,10 @@ const coin = {
       // image.src = "./CAMINHO/IMAGEM.JPEG"
       // image.alt = "Heads/Tails"
       if (this.state === 0) {
-        image.src = "../img/cara.jpg"
+        image.src = "./img/cara.jpg"
         image.alt = `${this.toString()}`
       } else {
-        image.src = "../img/coroa.jpg"
+        image.src = "./img/coroa.jpg"
         image.alt = `${this.toString()}`
       }
       return image
